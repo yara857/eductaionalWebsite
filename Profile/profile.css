@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    height: 100% !important;
+}
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 20px;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    float: inline-end;
+    text-align: right;
+}
+
+li {
+    text-align: right;
+    transition: 0.3s;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.logo {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: rgb(23, 23, 23);
+    transition: 0.3s;
+}
+
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.card-body {
+    text-align: right;
+}
+
+table {
+    background-color: transparent
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+    /* display: flex; */
+}
+
+h3 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.social {
+    font-size: 21px !important;
+}
+
+
+.color-text {
+    color: #757575 !important;
+}
+
+
+footer {
+    /* color: #caced1 !important; */
+    margin-top: 101px;
+    background-color: rgb(100, 100, 100) !important;
+    /* position: fixed; */
+    /* display: inline-block; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

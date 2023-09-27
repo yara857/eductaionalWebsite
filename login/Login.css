@@ -1,0 +1,34 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://bootstrapious.com/i/snippets/sn-page-split/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.radio-list {
+    column-count: 2;
+    column-gap: 20px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.radio-list ul {
+    list-style-type: none;
+}
+
+.radio-list li {
+
+    margin-right: 20px;
+    direction: rtl;
+    text-align: right;
+
+}
+.radio-group label{
+  display: inline-block;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <!-- Student Profile -->
+    <div class="student-profile py-4 rtl" style="padding: 20px;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Academy Club</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الصفحة الرئسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">الصفحة الشخصية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الكورسات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#result">النتائج</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exam">مواعيد الامتحانات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exam" style="color: brown;">تسجيل خروج</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-transparent text-center">
+                            <img class="profile_img" src="https://placeimg.com/640/480/arch/any" alt="">
+                            <h3>اسم المستخدم</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-0"><strong class="pr-1">رقم المستخدم: </strong> 321000001</p>
+                            <p class="mb-0"><strong class="pr-1">التخصص:</strong> سياحه و فنادق</p>
+                            <!-- <p class="mb-0"><strong class="pr-1">Section:</strong>A</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <!-- <div class="card shadow-sm">
+                        <div class="card-header bg-transparent border-0 rtl">
+                            <h3 class="mb-0" style="text-align: right;"><i class="far fa-clone pr-1 rtl"></i>معلومات
+                                عامه عن المستخدم</h3>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table table-bordered rtl">
+                                <tr>
+                                    <td>الاول</td>
+                                    <th width="30%">السنه الدراسية </th>
+
+                                </tr>
+                                <tr>
+                                    <td>ذكر</td>
+                                    <th width="30%">النوع</th>
+
+                                </tr>
+                                <tr>
+                                    <td>مسلم</td>
+                                    <th width="30%">الديانه</th>
+
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <th width="30%">السن</th>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </div> -->
+                    <!-- <div style="height: 10px;"></div> -->
+                    <div class="card shadow-sm" id="result">
+                        <div class="card-header bg-transparent border-0 rtl">
+                            <h3 class="mb-0" style="text-align: right;"><i class="far fa-clone pr-1 rtl"></i> النتائج
+                            </h3>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table table-bordered rtl">
+                                <tr>
+                                    <td>50/50</td>
+                                    <th width="30%">كروس 1</th>
+
+                                </tr>
+                                <tr>
+                                    <td>49/50</td>
+                                    <th width="30%">كروس 2</th>
+
+                                </tr>
+                                <tr>
+                                    <td>50/50</td>
+                                    <th width="30%">كروس 3</th>
+
+                                </tr>
+                                <tr>
+                                    <td>47/50</td>
+                                    <th width="30%">كروس 4</th>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold;">196/200</td>
+                                    <th width="30%" style="font-weight: bold;">المجموع الكلي</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="height: 10px;"></div>
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-transparent border-0 rtl" id="exam">
+                            <h3 class="mb-0" style="text-align: right;"><i class="far fa-clone pr-1 rtl"></i> مواعيد الامتحانات
+                            </h3>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table table-bordered rtl">
+                                <tr>
+                                    <td>٣ يناير ٩:٤٥ م</td>
+                                    <th width="30%">ماده 1</th>
+
+                                </tr>
+                                <tr>
+                                    <td>٣ يناير ٩:٤٥ م</td>
+                                    <th width="30%">ماده 3</th>
+
+                                </tr>
+                                <tr>
+                                    <td>٣ يناير ٩:٤٥ م</td>
+                                    <th width="30%">ماده 3</th>
+
+                                </tr>
+                                <tr>
+                                    <td>٣ يناير ٩:٤٥ م</td>
+                                    <th width="30%"> ماده 4</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid justify-content-center text-light">
+        <footer class="fixed-bottom">
+            <div class="container">
+                <div class="row justify-content-center mt-0 pt-0 row-1 mb-0 px-sm-3 px-2">
+                    <div class="col-12">
+                        <div class="row my-4 row-1 no-gutters">
+                            <div class="col-md-3 col-auto text-center"><small>&#9400; Academy Club</small></div>
+                            <div class="col-md-3 col-auto"></div>
+                            <div class="col-md-3 col-auto"></div>
+                            <div class="col-auto my-auto text-md-left text-right"><small>academyclub@info
+                                    <span><img src="https://i.imgur.com/TtB6MDc.png" class="img-fluid "
+                                            width="25"></span>
+                                    <span><img src="https://i.imgur.com/N90KDYM.png" class="img-fluid "
+                                            width="25"></span>
+                                </small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

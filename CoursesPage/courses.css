@@ -1,0 +1,133 @@
+* {
+    font-family: "Tahoma";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    float: inline-end;
+    text-align: right;
+}
+
+li {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.logo {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: rgb(23, 23, 23);
+    transition: 0.3s;
+}
+
+#login {
+    background-color: #c64343;
+    border-radius: 20px;
+    color: white;
+}
+
+#login:hover {
+    color: black;
+    background-color: white;
+
+}
+
+body {
+    /* background-color: #eee; */
+    height: 100% !important;
+}
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: red
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+    /* display: flex; */
+}
+
+h3 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.social {
+    font-size: 21px !important;
+}
+
+footer {
+    /* color: #caced1 !important; */
+    margin-top: 101px;
+    background-color: rgb(100, 100, 100) !important;
+    /* position: fixed; */
+    /* display: inline-block; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
