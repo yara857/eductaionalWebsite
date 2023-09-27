@@ -1,6 +1,7 @@
 # eductaionalWebsite
  It is responsive which created using html , css and bootstrap for Educational Academy in Egypt.
  It contants Login , Landing page which contants informtion of the organization , Courses page which are persented in the organization, Content Course page and Profile page for each user.
+ 
  ![Screenshot (34)](https://github.com/yara857/eductaionalWebsite/assets/75863913/6f0bfaf5-0b73-45a5-ad25-7f74ae76c3a8)
 ![Screenshot (32)](https://github.com/yara857/eductaionalWebsite/assets/75863913/3621e710-5cfc-44a8-86a1-cb2f79165903)
 ![Screenshot (37)](https://github.com/yara857/eductaionalWebsite/assets/75863913/ed53c8e1-c89a-40a7-9a3f-ff79221ac63b)
